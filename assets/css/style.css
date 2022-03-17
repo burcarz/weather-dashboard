@@ -1,0 +1,89 @@
+/*Global Variables */
+:root {
+    
+    --color1: rgb(15,12,46);
+    --color2: rgb(29,35,120);
+    --color3: rgb(40,71,217);
+    --color4: rgb(88,165,245);
+    --color5: rgb(122,216,248); 
+    --color6: rgb(255,255,255); 
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color:var(--color1);
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    
+
+}
+.navbar {
+    background-image:  linear-gradient(90deg, rgb(28, 28, 199),rgb(90, 90, 90));
+    color: white;
+    font-weight: bolder;    
+}
+header>h1 {
+    align-content: center;   
+}
+hr.solid {
+    border-top: 2px solid black;
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+
+}
+#city-weather{
+    border: 2px solid black;
+    margin: 2%;
+    min-height: 30%;
+  
+}
+#cityName0 {
+    margin-bottom: 1rem;
+   
+}
+
+#city-weather{
+   padding:3%;
+   font-size: 1.3rem;
+  
+}
+#currentCityName{
+    
+    font-size: 2.0rem;
+    padding-bottom: 2%;
+}
+#fiveDayTitle {
+    font-size: 2.0rem;
+  
+}
+
+.input-header {
+    font-size: 1.7rem;
+}
+
+#city-holder {
+    height: 90%;
+}
+
+
+
+/* Media Query for better mobile responsiveness */
+/* Handeled with Bootstrap */
+@media screen and (max-width: 980px) {
+
+    /* NO CHANGES NEEDED FOR THIS RESOLUTION */
+         
+}/*980px breakpoint end */
+@media screen and (max-width: 768px) {
+      
+       
+}/*768px breakpoint end */
+    
+@media screen and (max-width: 575px) {
+          
+}/*575px breakpoint end */
